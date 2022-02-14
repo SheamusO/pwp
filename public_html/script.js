@@ -9,7 +9,7 @@ $(document).ready(function (){
                 required: true
             },
             email:{
-                email: true
+                email: true,
                 required: true
             },
             message: {
@@ -20,16 +20,16 @@ $(document).ready(function (){
         messages: {
             name: {
                 required: 'Please fill in your name.'
-            }
+            },
             email: {
                 email: 'Please provide an email.',
                 required: 'Email is required.'
-            }
+            },
             message: {
                 required: 'A message is required.',
                 maxlength: 'Message is too long.'
             }
-        }
+        },
         submitHandler: (form) => {
             $('#contact').ajaxSubmit({
                 type: 'POST',
