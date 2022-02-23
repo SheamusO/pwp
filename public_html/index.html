@@ -7,8 +7,9 @@
 
     <title>Title</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="stylesheet.css" rel="stylesheet">
 </head>
-<body >
+<body>
 <!--<div class="container-fluid">-->
 <!--    <img src="white-sands.jpg" class="figure-img img-fluid">-->
 <!--</div>-->
@@ -35,41 +36,49 @@
         </li>
     </ul>
 </nav>
-
-<div class="container-fluid text-center py-3">
-    <div class="row no-gutter">
-        <div class="col-lg-3 col-sm-6">
-            <div class="card mb-3">
-                <div class="card-body">
-                    <img src="white-sands.jpg" class="img-fluid" alt="fill picture">
+<div id="portfolio" class="no-padding">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-box">
+                    <img class="img-fluid" src="white-sands.jpg" alt="fill picture">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded"></div>
+                            <div class="project-name">I figured it out!</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-lg-3" col-sm-6>
-            <div class="card mb-3">
-                <div class="card-body">
-                    <img src="white-sands.jpg" class="img-fluid" alt="fill picture">
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-box">
+                    <img class="img-fluid" src="white-sands-2.jpg" alt="fill picture">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded"></div>
+                            <div class="project-name">Look Marty!</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-lg-3 col-sm-6">
-            <div class="card mb-3">
-                <div class="card-body">
-                    <img src="white-sands.jpg" class="img-fluid" alt="fill picture">
+            <div class="col-lg-4 col-sm-6">
+                <div class="portfolio-box">
+                    <img class="img-fluid" src="white-sands-3.jpg" alt="fill picture">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded"></div>
+                            <div class="project-name">Are you proud of me?</div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            </div>
+
         </div>
 
-        <div class="col-lg-3 col-sm-6">
-            <div class="card mb-3">
-                <div class="card-body">
-                    <img src="white-sands-4.jpg" class="img-fluid" alt="fill picture">
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">    <div class="container">
         <div class="container py-3">
@@ -95,11 +104,11 @@
                 <li>Windows Powershell</li>
                 <li>French Horn</li>
                 <li>Cello</li>
-                <li>Can sing, won't.</li>
+                <li>Can sing bass</li>
                 <li>Carpentry</li>
                 <li>Resourceful</li>
                 <li>Works well with others</li>
-                <li>Problem Solving</li>
+                <li>Problem solving capabilities</li>
                 <li>Accepting of feedback and constructive criticisms</li>
                 <li>I'm an adaptive person, I'm willing to learn the things  don't know yet and when I start the ball rolling it gets going pretty quick.</li>
                 <li>My Grandma says I'm handsome.</li>
@@ -114,13 +123,10 @@
                     <h2 id="scrollspyHeading3">Accomplishments</h2>
                     <ul class="container">
                         <li>Completed an apprenticeship in wooden boat building (The Apprenticeshop, 3 yrs.)</li>
+                        <li>Deckhand and first mate (Equinox Island Transit LLC)</li>
                         <li>Band captain in marching band (Cleveland High school)</li>
                         <li>Diving Team Captain</li>
-                        <li>Deckhand and first mate (Equinox Island Transit LLC)</li>
                         <li>CDL Certified (Class A)</li>
-                        <li>I can eat one dozen hard-boiled eggs.</li>
-                        <li>Tied my shoes the other day.</li>
-                        <li>Can't sword swallow (yet!)</li>
                         <li>Sweet 'Stache</li>
                     </ul>
                 </div>
@@ -140,7 +146,8 @@
             <div class="row">
                 <div class="col-10 mx-auto">
                     <h2>Links</h2>
-                    <p>*insert links to other work and favorite YouTube videos here*</p>
+                    <a href="https://www.youtube.com/watch?v=fIY55V0Tblk&ab_channel=AmbientWorlds" target="_blank">Ambient music I like.</a>
+                    <a href="https://www.youtube.com/watch?v=uSHvPJD_558&ab_channel=TheHedgehogEggnog" target="_blank">And another..</a>
                 </div>
             </div>
         </div>
@@ -162,7 +169,6 @@
                 <div class="contact ">
 
                     <!-- BEGIN CONTACT FORM -->
-                    <h2>A contact form.</h2>
                     <div>
                     <form action="./apis/" id="contact" method="post" novalidate>
                         <div class="form-group">
@@ -223,7 +229,7 @@
         <div class="row">
             <div class="bg-success p-2 text-dark bg-opacity-25 col-lg-6 col-md-8 mx-auto">
                 <img src="0295_DH5A0521.jpg" class="rounded mx-auto d-block img-fluid" alt="dapper picture of me">
-                <div class="container-sm col-6 text-center">Personal Website Project</div>
+                <div class="container-sm col-6 text-center">The Author</div>
             </div>
         </div>
     </div>
