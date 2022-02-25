@@ -48,7 +48,7 @@ body {
     transform: translateY(-50%);
 }
 .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
+    opacity: 50%;
 }
 a {
     color: white;
